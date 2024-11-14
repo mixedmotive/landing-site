@@ -1,0 +1,54 @@
+.body {
+  background-color: #000;
+}
+
+.main-section {
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  display: flex;
+}
+
+.title {
+  color: #fff;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Hurufatfont Kanyon Copy, sans-serif;
+  font-size: 50px;
+  line-height: 60px;
+}
+
+.text-logo {
+  width: 550px;
+}
+
+.text-logo-link {
+  cursor: not-allowed;
+}
+
+@media screen and (max-width: 991px) {
+  .text-logo {
+    width: 450px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .text-logo {
+    width: 350px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .text-logo {
+    width: 250px;
+  }
+}
+
+
+@font-face {
+  font-family: 'Hurufatfont Kanyon Copy';
+  src: url('../fonts/Hurufatfont---Kanyon-Bold-copy.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
